@@ -1,9 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <bits/stdc++.h>
+using namespace std;
+
+struct a{
+	int a;
+	int b;
+};
+a x[2];
+
 int main()
 {
-	int size=1024;
+	x[1].b = 33;
+	cout<<x[1].b;
+	/*int size=1024;
 	char* buff = (char*)malloc(size);
 	
 	//read lines
@@ -14,6 +22,10 @@ int main()
 	
 	//ÊÍ·Åbuff 
 	free buff; 
-
+	
+	string s = "asd dsa";
+	int pos = s.find(" ");
+	cout<<s.length();*/
+	 
 	return 0;
 }
